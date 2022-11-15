@@ -1,0 +1,35 @@
+{
+  "name": "telegram-tradingview-signals",
+  "version": "1.0.0",
+  "description": "Push notification to Telegram with TradingView’s signals",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanycw/telegram-tradingview-signals.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanycw/telegram-tradingview-signals/issues"
+  },
+  "homepage": "https://github.com/ryanycw/telegram-tradingview-signals#readme",
+  "dependencies": {
+    "@types/node-fetch": "2.x",
+    "dotenv": "^16.0.2",
+    "node-fetch": "2.6.1",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.104",
+    "@types/aws-sdk": "^2.7.0",
+    "@types/node": "^18.7.17",
+    "serverless": "^3.22.0",
+    "serverless-dotenv-plugin": "^4.0.2",
+    "serverless-plugin-typescript": "^2.1.2",
+    "typescript": "^4.8.3"
+  }
+}
