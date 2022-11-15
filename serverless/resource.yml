@@ -1,0 +1,14 @@
+Resources:
+  # Order DB Scheme
+  TradingViewOrder:
+    Type: "AWS::DynamoDB::Table"
+    DeletionPolicy: Retain
+    Properties:
+      AttributeDefinitions:
+        - AttributeName: strategyName
+          AttributeType: N
+      KeySchema:
+        - AttributeName: strategyName
+          KeyType: HASH
+      BillingMode: PAY_PER_REQUEST
+      TableName: ${env:AWS_DYNAMODB_TABLE_NAME}

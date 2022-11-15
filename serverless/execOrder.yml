@@ -1,0 +1,8 @@
+# Trade API
+execOrder:
+  name: ${env:SERVERLESS_SERVICE_NAME}-${env:STAGE}-exeOrder
+  handler: src/execOrder.exeOrder
+  events:
+  - httpApi:
+      path: /telegram/notification
+      method: post
