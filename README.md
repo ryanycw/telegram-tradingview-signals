@@ -1,2 +1,3 @@
-# Telegram Tradingview Signals
-Push notification to Telegram with TradingView’s signals
+## Telegram Tradingview Signals
+
+Telegram Tradingview Signals is a project to push notification to Telegram with TradingView’s signals
